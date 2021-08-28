@@ -78,7 +78,7 @@ const Shelf: React.FC<IShelfProps> = ({ shelfTitle }) => {
       <Slider {...slickSettings}>
         {product?.map(
           ({ imageUrl, productName, price, listPrice, installments, stars }, index) => (
-            <div key={index} className={"shelf-cnontainer-inner"}>
+            <div key={index} className={"shelf-container-inner"}>
               <div className={"shelf-container-wrapper"}>
                 <img src={imageUrl} alt="shelf product" />
                 <div className={price < listPrice ? "shelfFlag" : ""}></div>
