@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import apiCorebiz from "../../services/apiCorebiz";
+import apiCoreBiz from "../../services/apiCoreBiz";
 
 import "./styles.css";
 
@@ -30,7 +30,7 @@ const Newsletter: React.FC = () => {
   };
 
   const sendInfo = (name: string, email: string) => {
-    apiCorebiz
+    apiCoreBiz
       .post("/newsletter", {
         email,
         name,

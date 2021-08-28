@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import StarRatingComponent from "react-star-rating-component";
 import { useMinicartProvider } from "../../context/minicartContext";
-import apiCorebiz from "../../services/apiCorebiz";
+import apiCoreBiz from "../../services/apiCoreBiz";
 import "./styles.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -64,7 +64,7 @@ const Shelf: React.FC<IShelfProps> = ({ shelfTitle }) => {
   };
 
   useEffect(() => {
-    apiCorebiz
+    apiCoreBiz
       .get("/products")
       .then(({ data }) => {
         setProducts(data);
