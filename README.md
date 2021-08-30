@@ -2,8 +2,8 @@
 
 ### Contact
 
-If you have any doubt, contact me:
-Email: thaisportom12@gmail.com
+If you have any doubt, contact me<br/>
+Email: thaisportom12@gmail.com<br/>
 [**Linkedin**](https://www.linkedin.com/in/thais-porto-mendon%C3%A7a-06b193214/)
 
 ## This project contains
@@ -16,7 +16,7 @@ Email: thaisportom12@gmail.com
 
 ## Running the project
 
-To run the project, use the command `yarn install` on terminal after clonning it, and then `yarn start`
+To run the project, use the command `yarn install` on terminal after clonning it, and then `yarn start`<br/>
 In this way, the project will run in development mode http://localhost:3000
 
 ## Languages and Tools used
